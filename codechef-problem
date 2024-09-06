@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int allweek,sunday;
+	scanf("%d %d",&allweek,&sunday);
+	int totaldayscost=((6*allweek)+sunday);
+	printf("%d\n",totaldayscost);
+	
+}
+	
+	
