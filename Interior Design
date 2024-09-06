@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+
+int t;
+scanf("%d ",&t);
+while(t--){
+    
+int x1,y1,x2,y2;
+scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
+int x1y1=x1+y1;
+int x2y2=x2+y2;
+if(x1y1<x2y2)
+{
+    printf("%d\n",x1y1);
+}
+else if(x1y1>x2y2)
+{
+    printf("%d\n",x2y2);
+}
+else if(x1y1==x2y2){
+    printf("%d\n",x1y1);
+}
+}
+}
