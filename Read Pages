@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+int t;
+scanf("%d",&t);
+while(t--){
+    int x,y,N;
+    scanf("%d %d %d",&N,&x,&y);
+    int max_page=x*y;
+    if(max_page>=N){
+        printf("YES\n");
+        
+    }
+    else
+    {
+        printf("NO\n");
+    }
+    
+    
+    
+}
+}
