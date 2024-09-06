@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	int x,y;
+	scanf("%d %d",&x,&y);
+	if(x+y>=2000){
+	    printf("YES\n");
+	    
+	}
+	else{
+	    printf("NO\n");
+	}
+	
+
+}
