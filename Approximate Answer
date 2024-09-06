@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	int X,Y,K;
+	scanf("%d %d %d",&X,&Y,&K);
+int difference=abs(X-Y);
+if(difference<=K){
+    printf("Yes\n");
+}
+else{
+    printf("No\n");
+}
+}
