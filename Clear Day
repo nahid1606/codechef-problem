@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+
+int X,Y;
+scanf("%d %d",&X,&Y);
+int cleardays=7-X-Y;
+printf("%d\n",cleardays);
+
+
+
+
+}
