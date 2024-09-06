@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+ int t;
+ scanf("%d",&t);
+ while(t--){
+     int N;
+     scanf("%d",&N);
+     int game=N*60/20;
+     printf("%d\n",game);
+ }
+
+
+
+}
