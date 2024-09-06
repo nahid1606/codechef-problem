@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+int x,y;
+scanf("%d %d",&x,&y);
+
+int totalcost=2*x;
+if(y>=totalcost){
+    printf("YES\n");
+}
+else
+{
+    printf("NO\n");
+}
+
+}
