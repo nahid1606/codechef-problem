@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int T;
+    scanf("%d", &T);  // Read the number of test cases
+
+    while (T--) {
+        int X, Y;
+        scanf("%d %d", &X, &Y);  // Read X and Y
+        
+        // Calculate the upper bound of the recommended range
+        int upper_bound = X + 200;
+        
+        // Check if Y is within the range [X, X + 200]
+        if (Y >= X && Y <= upper_bound) {
+            printf("YES\n");
+        } else {
+            printf("NO\n");
+        }
+    }
+
+    return 0;
+}
